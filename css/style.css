@@ -149,7 +149,7 @@ body {
     min-width: calc(25% - 4px);
     height: 320px;
 
-    background-image: url(/images/trend1.jpg);
+    background-image: url(../images/trend1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -215,15 +215,15 @@ body {
 }
 
 .card2 {
-    background-image: url(/images/trend2.jpg)
+    background-image: url(../images/trend2.jpg)
 }
 
 .card3{
-    background-image: url(/images/trend3.jpg);
+    background-image: url(../images/trend3.jpg);
 }
 
 .card4 {
-    background-image: url(/images/trend4.jpg);
+    background-image: url(../images/trend4.jpg);
 }
 
 /* Main */
@@ -362,7 +362,7 @@ body {
     height: 48px;
     border: none;
     
-    background: #b59f5b url(/svg/search.svg) no-repeat center;
+    background: #b59f5b url(../svg/search.svg) no-repeat center;
     background-size: 18px;
 }
 
@@ -622,7 +622,7 @@ body {
     -webkit-appearance: none;
     -moz-appearance: none;
     border: none;
-    background: #f3f2f2 url(/svg/form-arrows.svg) no-repeat right 10px center;
+    background: #f3f2f2 url(../svg/form-arrows.svg) no-repeat right 10px center;
     background-size: 8px;
 }
 
@@ -652,7 +652,7 @@ body {
     width: 15px;
     height: 15px;
     margin-right: 3px;
-    background: url(/svg/form-empty-circle.svg) no-repeat center center;
+    background: url(../svg/form-empty-circle.svg) no-repeat center center;
     background-size: 100%;
 }
 
@@ -664,7 +664,7 @@ body {
 }
 
 .radio:checked ~ .radio__group-text::before {
-    background-image: url(/svg/form-circle.svg);
+    background-image: url(../svg/form-circle.svg);
 }
 
 .form__textarea {
@@ -793,7 +793,7 @@ body {
     }
 
     .header {
-        background-image: url(/images/banner-bg-tablet.jpg);
+        background-image: url(../images/banner-bg-tablet.jpg);
         min-height: 391px;
         background-position: bottom center;
     }
@@ -932,7 +932,7 @@ body {
     }
 
     .header {
-        background-image: url(/images/banner-mobile.jpg);
+        background-image: url(../images/banner-mobile.jpg);
         background-position: bottom center;
         min-height: 638px;
     }
